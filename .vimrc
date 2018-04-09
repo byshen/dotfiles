@@ -1,6 +1,6 @@
 " highlight syntax
+set t_Co=256
 syntax on
-
 
 set nocompatible
 filetype off
@@ -48,6 +48,12 @@ call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Valloric/YouCompleteMe'
+Plug 'endel/vim-github-colorscheme'
+Plug 'tomasr/molokai'
+Plug 'fmoralesc/molokayo'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+colorscheme molokayo
+
