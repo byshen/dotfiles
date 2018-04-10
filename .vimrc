@@ -51,7 +51,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'endel/vim-github-colorscheme'
 Plug 'tomasr/molokai'
 Plug 'fmoralesc/molokayo'
-
+Plug 'tpope/vim-commentary'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
