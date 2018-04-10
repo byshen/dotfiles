@@ -52,8 +52,19 @@ Plug 'endel/vim-github-colorscheme'
 Plug 'tomasr/molokai'
 Plug 'fmoralesc/molokayo'
 Plug 'tpope/vim-commentary'
+Plug 'majutsushi/tagbar'
+
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
 colorscheme molokayo
+
+autocmd FileType apache setlocal commentstring=#\ %s " This is for vim-commentary, to support more file types
+nmap <F8> :TagbarToggle<CR>
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#switch_buffers_and_tabs = 1
 
