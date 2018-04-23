@@ -47,12 +47,12 @@ call plug#begin('~/.vim/bundle')
 " Declare the list of plugins.
 Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'endel/vim-github-colorscheme'
 Plug 'tomasr/molokai'
 Plug 'fmoralesc/molokayo'
 Plug 'tpope/vim-commentary'
-Plug 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar' " F8 to show file structure, first need ctags installed
 
 
 Plug 'vim-airline/vim-airline'
